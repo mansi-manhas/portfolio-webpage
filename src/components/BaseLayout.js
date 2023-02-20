@@ -3,7 +3,7 @@ import Style from './BaseLayout.module.scss'
 import Navbar from "./Navbar";
 import Home from "./home/Home";
 import Resume from "./resume/Resume";
-import AboutMe from "./about/AboutMe";
+//import AboutMe from "./about/AboutMe";
 import ExperienceTimeline from './experience/ExperienceTimeline';
 import Portfolio from "./portfolio/Portfolio";
 import {Route, Routes} from "react-router-dom";
