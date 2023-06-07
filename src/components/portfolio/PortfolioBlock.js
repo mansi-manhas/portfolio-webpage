@@ -1,11 +1,12 @@
 import React from "react";
 import IconLink from "./IconLink";
+
 import { Box } from "@mui/material";
 
 const liveTitles = [
-  "sql query editor view",
-  "results summary component using html, css and flexbox",
-  "e-commerce application using nextjs, prisma, and stripe payments"
+  "SQL Query Editor View",
+  "Results Summary Component using HTML, CSS and Flexbox",
+  "E-Commerce application using Next.js, Prisma, and Stripe payments"
 ];
 
 function PortfolioBlock(props) {
