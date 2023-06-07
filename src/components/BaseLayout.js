@@ -3,6 +3,8 @@ import Style from './BaseLayout.module.scss'
 import Navbar from "./Navbar";
 import Home from "./home/Home";
 import Resume from "./resume/Resume";
+import Articles from "./articles/Articles";
+
 //import AboutMe from "./about/AboutMe";
 import ExperienceTimeline from './experience/ExperienceTimeline';
 import Portfolio from "./portfolio/Portfolio";
@@ -24,6 +26,7 @@ export default function BaseLayout() {
                   {/* <Route exact path={'/about'} element={<AboutMe/>}/> */}
                   <Route exact path={'/experience'} element={<ExperienceTimeline/>}/>
                   <Route exact path={'/projects'} element={<Portfolio/>}/>
+                  <Route exact path={'/articles'} element={<Articles />}/>
                   <Route exact path={'/resume'} element={<Resume/>}/>
                </Routes>
             </Grid>

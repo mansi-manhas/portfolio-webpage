@@ -2,14 +2,8 @@ import React from "react";
 import IconLink from "./IconLink";
 import { Box } from "@mui/material";
 
-const liveTitles = [
-  "sql query editor view",
-  "results summary component using html, css and flexbox",
-  "e-commerce application using nextjs, prisma, and stripe payments"
-];
-
-function PortfolioBlock(props) {
-  const { image, live, source, title } = props;
+function ArticleBlock(props) {
+  const { image, source, title } = props;
   return (
     <Box
       display={"flex"}
@@ -33,17 +27,12 @@ function PortfolioBlock(props) {
         fontSize={"1.5rem"}
         py={"2rem"}
       >
-        {liveTitles.includes(title) && (
-          <Box p={1} border={"2px solid black"} borderRadius={"25px"}>
-            <IconLink link={live} title={"Live Demo"} icon={"fa fa-safari"} />
-          </Box>
-        )}
         <Box p={1} border={"2px solid black"} borderRadius={"25px"}>
-          <IconLink link={source} title={"Source Code"} icon={"fa fa-code"} />
+          <IconLink link={source} title={"Read this article"} icon={"fa  fa-newspaper-o"} />
         </Box>
       </Box>
     </Box>
   );
 }
 
-export default PortfolioBlock;
+export default ArticleBlock;
