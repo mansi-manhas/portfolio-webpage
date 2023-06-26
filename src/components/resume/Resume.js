@@ -3,8 +3,6 @@ import React from "react";
 import { Box } from "@mui/material";
 import Snackbar from '@mui/material/Snackbar';
 
-import resume from "../../img/resume.png";
-
 import MuiAlert from '@mui/material/Alert';
 
 const Alert = React.forwardRef(function Alert(
@@ -52,7 +50,7 @@ export default function Resume() {
       >
         <Box
           component={"img"}
-          src={resume}
+          src={process.env.PUBLIC_URL + '/img/resume.png'}
           alt={"mockup"}
           sx={{ width: 500, height: 600, padding: "40px" }}
           onClick={handleDownload}
