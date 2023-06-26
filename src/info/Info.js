@@ -20,7 +20,7 @@ export const info = {
   lastName: "Manhas",
   initials: "", // the example uses first and last, but feel free to use three or more if you like.
   position: "a frontend software engineer",
-  selfPortrait: process.env.PUBLIC_URL + '/img/self2.png', // don't change this unless you want to name your self-portrait in the "img" folder something else!
+  selfPortrait: process.env.PUBLIC_URL + '/img/self2.webp', // don't change this unless you want to name your self-portrait in the "img" folder something else!
   gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
   baseColor: colors[0],
   miniBio: [
@@ -109,48 +109,48 @@ export const info = {
     {
       title: "Dashboard UI using React.js, TypeScript & Styled-components",
       source: "https://github.com/mansi-manhas/dashboard", // this should be a link to the **repository** of the project, where the code is hosted.
-      image: process.env.PUBLIC_URL + '/img/mock_dashboard_ui.png',
+      image: process.env.PUBLIC_URL + '/img/mock_dashboard_ui.webp',
     },
     {
       title: "Results Summary Component using HTML, CSS and Flexbox",
       live: "https://guileless-mooncake-82a471.netlify.app/",
       source:
         "https://github.com/mansi-manhas/result-summary-component-using-css-grid-and-flexbox", // this should be a link to the **repository** of the project, where the code is hosted.
-      image: process.env.PUBLIC_URL + '/img/result_summary_ui.png',
+      image: process.env.PUBLIC_URL + '/img/result_summary_ui.webp',
     },
     {
       title: "Central Agile Dashboard & Automating Subtask Creation in Jira",
       source: "https://github.com/mansi-manhas/jira-board-daily-scrum", // this should be a link to the **repository** of the project, where the code is hosted.
-      image: process.env.PUBLIC_URL + '/img/mock1.png',
+      image: process.env.PUBLIC_URL + '/img/mock1.webp',
     },
     {
       title: "E-Commerce application using Next.js, Prisma, and Stripe payments",
       live: "https://ecommerce-website-using-nextjs-planetscale-prisma-and-stripe.vercel.app/",
       source:
         "https://github.com/mansi-manhas/ecommerce-website-using-nextjs-planetscale-prisma-and-stripe/tree/main", // this should be a link to the **repository** of the project, where the code is hosted.
-      image: process.env.PUBLIC_URL + '/img/ecommerce.png',
+      image: process.env.PUBLIC_URL + '/img/ecommerce.webp',
     },
     {
       title: "SQL Query Editor View",
       live: "https://zingy-tiramisu-ab4818.netlify.app/",
       source: "https://github.com/mansi-manhas/sql-query-editor-view",
-      image: process.env.PUBLIC_URL + '/img/mock2.png',
+      image: process.env.PUBLIC_URL + '/img/mock2.webp',
     },
     {
       title: "Auto-Suggestions React.js Components",
       source:
         "https://github.com/mansi-manhas/react-autocomplete-autosuggestion-component",
-      image: process.env.PUBLIC_URL + '/img/mock3.png',
+      image: process.env.PUBLIC_URL + '/img/mock3.webp',
     },
     {
       title: "Command Line React App",
       source: "https://github.com/mansi-manhas/command-line-react-app",
-      image: process.env.PUBLIC_URL + '/img/mock4.png',
+      image: process.env.PUBLIC_URL + '/img/mock4.webp',
     },
     {
       title: "React Native Crypto Tracker Mobile UI",
       source: "https://github.com/mansi-manhas/crypto-tracker-react-native",
-      image: process.env.PUBLIC_URL + '/img/mock5.png',
+      image: process.env.PUBLIC_URL + '/img/mock5.webp',
     },
   ],
   articles: [
@@ -158,58 +158,58 @@ export const info = {
       title: "React.js Performance Optimization Techniques",
       source:
         "https://levelup.gitconnected.com/react-js-performance-optimization-techniques-39728d89e56e",
-      image: process.env.PUBLIC_URL + '/img/articles/a.png',
+      image: process.env.PUBLIC_URL + '/img/articles/a.webp',
     },
     {
       title: "The Ultimate Guide For Creating Amazing Web Designs",
       source:
         "https://medium.com/geekculture/the-ultimate-guide-for-creating-amazing-web-designs-141c366ec51f",
-      image: process.env.PUBLIC_URL + '/img/articles/b.png',
+      image: process.env.PUBLIC_URL + '/img/articles/b.webp',
     },
     {
       title:
         "Mastering Low-Level Design Technical Interviews: Tips and Resources",
       source:
         "https://levelup.gitconnected.com/mastering-low-level-design-technical-interviews-tips-and-resources-1df00522d334",
-      image: process.env.PUBLIC_URL + '/img/articles/c.png',
+      image: process.env.PUBLIC_URL + '/img/articles/c.webp',
     },
     {
       title:
         "How to build Auto Complete React component and improve its performance using debounce",
       source:
         "https://javascript.plainenglish.io/how-to-build-auto-complete-react-component-and-improve-its-performance-using-debounce-df8a8b933371",
-      image: process.env.PUBLIC_URL + '/img/articles/d.png',
+      image: process.env.PUBLIC_URL + '/img/articles/d.webp',
     },
     {
       title: "Flatten a Nested Object in JavaScript",
       source:
         "https://mansimanhas.medium.com/flatten-a-nested-object-in-javascript-bd643707c5af",
-      image: process.env.PUBLIC_URL + '/img/articles/e.png',
+      image: process.env.PUBLIC_URL + '/img/articles/e.webp',
     },
     {
       title: "What are the different ways to hide elements in HTML and CSS?",
       source:
         "https://medium.com/geekculture/what-are-the-different-ways-to-hide-elements-in-html-and-css-52ab1ea302aa",
-      image: process.env.PUBLIC_URL + '/img/articles/f.png',
+      image: process.env.PUBLIC_URL + '/img/articles/f.webp',
     },
     {
       title: "Basic HTML and CSS Topics for Frontend Developers in 2023",
       source:
         "https://javascript.plainenglish.io/basic-html-and-css-topics-for-frontend-developers-in-2022-e38457f53361",
-      image: process.env.PUBLIC_URL + '/img/articles/g.png',
+      image: process.env.PUBLIC_URL + '/img/articles/g.webp',
     },
     {
       title: "How Do You Implement Promise Methods in JavaScript?",
       source:
         "https://javascript.plainenglish.io/how-would-you-implement-promise-methods-in-javascript-227707f880ad",
-      image: process.env.PUBLIC_URL + '/img/articles/h.png',
+      image: process.env.PUBLIC_URL + '/img/articles/h.webp',
     },
     {
       title:
         "How Do You Implement debounce() and throttle() Functions in JavaScript?",
       source:
         "https://javascript.plainenglish.io/how-would-you-implement-debounce-and-throttle-functions-in-javascript-73a1192376",
-      image: process.env.PUBLIC_URL + '/img/articles/i.png',
+      image: process.env.PUBLIC_URL + '/img/articles/i.webp',
     },
   ],
 };
