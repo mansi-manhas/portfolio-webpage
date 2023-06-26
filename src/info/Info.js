@@ -1,22 +1,3 @@
-import self from "../img/self.png";
-import mock1 from "../img/mock1.png";
-import mock2 from "../img/mock2.png";
-import mock3 from "../img/mock3.png";
-import mock4 from "../img/mock4.png";
-import mock5 from "../img/mock5.png";
-import mock_dashboard_ui from "../img/mock_dashboard_ui.png";
-import result_summary_ui from "../img/result_summary_ui.png";
-import ecommerce from "../img/ecommerce.png";
-
-import a from "../img/articles/a.png";
-import b from "../img/articles/b.png";
-import c from "../img/articles/c.png";
-import d from "../img/articles/d.png";
-import e from "../img/articles/e.png";
-import f from "../img/articles/f.png";
-import g from "../img/articles/g.png";
-import h from "../img/articles/h.png";
-import i from "../img/articles/i.png";
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -39,7 +20,7 @@ export const info = {
   lastName: "Manhas",
   initials: "", // the example uses first and last, but feel free to use three or more if you like.
   position: "a frontend software engineer",
-  selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
+  selfPortrait: process.env.PUBLIC_URL + '/img/self2.png', // don't change this unless you want to name your self-portrait in the "img" folder something else!
   gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
   baseColor: colors[0],
   miniBio: [
@@ -128,48 +109,48 @@ export const info = {
     {
       title: "Dashboard UI using React.js, TypeScript & Styled-components",
       source: "https://github.com/mansi-manhas/dashboard", // this should be a link to the **repository** of the project, where the code is hosted.
-      image: mock_dashboard_ui,
+      image: process.env.PUBLIC_URL + '/img/mock_dashboard_ui.png',
     },
     {
       title: "Results Summary Component using HTML, CSS and Flexbox",
       live: "https://guileless-mooncake-82a471.netlify.app/",
       source:
         "https://github.com/mansi-manhas/result-summary-component-using-css-grid-and-flexbox", // this should be a link to the **repository** of the project, where the code is hosted.
-      image: result_summary_ui,
+      image: process.env.PUBLIC_URL + '/img/result_summary_ui.png',
     },
     {
       title: "Central Agile Dashboard & Automating Subtask Creation in Jira",
       source: "https://github.com/mansi-manhas/jira-board-daily-scrum", // this should be a link to the **repository** of the project, where the code is hosted.
-      image: mock1,
+      image: process.env.PUBLIC_URL + '/img/mock1.png',
     },
     {
       title: "E-Commerce application using Next.js, Prisma, and Stripe payments",
       live: "https://ecommerce-website-using-nextjs-planetscale-prisma-and-stripe.vercel.app/",
       source:
         "https://github.com/mansi-manhas/ecommerce-website-using-nextjs-planetscale-prisma-and-stripe/tree/main", // this should be a link to the **repository** of the project, where the code is hosted.
-      image: ecommerce,
+      image: process.env.PUBLIC_URL + '/img/ecommerce.png',
     },
     {
       title: "SQL Query Editor View",
       live: "https://zingy-tiramisu-ab4818.netlify.app/",
       source: "https://github.com/mansi-manhas/sql-query-editor-view",
-      image: mock2,
+      image: process.env.PUBLIC_URL + '/img/mock2.png',
     },
     {
       title: "Auto-Suggestions React.js Components",
       source:
         "https://github.com/mansi-manhas/react-autocomplete-autosuggestion-component",
-      image: mock3,
+      image: process.env.PUBLIC_URL + '/img/mock3.png',
     },
     {
       title: "Command Line React App",
       source: "https://github.com/mansi-manhas/command-line-react-app",
-      image: mock4,
+      image: process.env.PUBLIC_URL + '/img/mock4.png',
     },
     {
       title: "React Native Crypto Tracker Mobile UI",
       source: "https://github.com/mansi-manhas/crypto-tracker-react-native",
-      image: mock5,
+      image: process.env.PUBLIC_URL + '/img/mock5.png',
     },
   ],
   articles: [
@@ -177,58 +158,58 @@ export const info = {
       title: "React.js Performance Optimization Techniques",
       source:
         "https://levelup.gitconnected.com/react-js-performance-optimization-techniques-39728d89e56e",
-      image: a,
+      image: process.env.PUBLIC_URL + '/img/articles/a.png',
     },
     {
       title: "The Ultimate Guide For Creating Amazing Web Designs",
       source:
         "https://medium.com/geekculture/the-ultimate-guide-for-creating-amazing-web-designs-141c366ec51f",
-      image: b,
+      image: process.env.PUBLIC_URL + '/img/articles/b.png',
     },
     {
       title:
         "Mastering Low-Level Design Technical Interviews: Tips and Resources",
       source:
         "https://levelup.gitconnected.com/mastering-low-level-design-technical-interviews-tips-and-resources-1df00522d334",
-      image: c,
+      image: process.env.PUBLIC_URL + '/img/articles/c.png',
     },
     {
       title:
         "How to build Auto Complete React component and improve its performance using debounce",
       source:
         "https://javascript.plainenglish.io/how-to-build-auto-complete-react-component-and-improve-its-performance-using-debounce-df8a8b933371",
-      image: d,
+      image: process.env.PUBLIC_URL + '/img/articles/d.png',
     },
     {
       title: "Flatten a Nested Object in JavaScript",
       source:
         "https://mansimanhas.medium.com/flatten-a-nested-object-in-javascript-bd643707c5af",
-      image: e,
+      image: process.env.PUBLIC_URL + '/img/articles/e.png',
     },
     {
       title: "What are the different ways to hide elements in HTML and CSS?",
       source:
         "https://medium.com/geekculture/what-are-the-different-ways-to-hide-elements-in-html-and-css-52ab1ea302aa",
-      image: f,
+      image: process.env.PUBLIC_URL + '/img/articles/f.png',
     },
     {
       title: "Basic HTML and CSS Topics for Frontend Developers in 2023",
       source:
         "https://javascript.plainenglish.io/basic-html-and-css-topics-for-frontend-developers-in-2022-e38457f53361",
-      image: g,
+      image: process.env.PUBLIC_URL + '/img/articles/g.png',
     },
     {
       title: "How Do You Implement Promise Methods in JavaScript?",
       source:
         "https://javascript.plainenglish.io/how-would-you-implement-promise-methods-in-javascript-227707f880ad",
-      image: h,
+      image: process.env.PUBLIC_URL + '/img/articles/h.png',
     },
     {
       title:
         "How Do You Implement debounce() and throttle() Functions in JavaScript?",
       source:
         "https://javascript.plainenglish.io/how-would-you-implement-debounce-and-throttle-functions-in-javascript-73a1192376",
-      image: i,
+      image: process.env.PUBLIC_URL + '/img/articles/i.png',
     },
   ],
 };
