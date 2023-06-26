@@ -50,7 +50,7 @@ export default function Resume() {
       >
         <Box
           component={"img"}
-          src={process.env.PUBLIC_URL + '/img/resume.png'}
+          src={process.env.PUBLIC_URL + '/img/resume.webp'}
           alt={"mockup"}
           sx={{ width: 500, height: 600, padding: "40px" }}
           onClick={handleDownload}
