@@ -1,6 +1,6 @@
 # React Portfolio, multiple pages with dark mode
 
-[http://mansimanhas.in](http://mansimanhas.in)
+https://mansimanhas.netlify.app/
 
 ## Home page
 ![image](https://github.com/mansi-manhas/portfolio-webpage/assets/18692751/ccc90f04-704a-4367-8a40-52fb91534a27)
